@@ -11,3 +11,11 @@ REPORT_GAS=true npx hardhat test
 npx hardhat node
 npx hardhat ignition deploy ./ignition/modules/Lock.js
 ```
+
+push code to github:
+git init -b main
+git add .
+git commit -m "message"
+git remote add origin "xxx.git"
+git remote -v
+git push origin main
